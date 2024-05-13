@@ -26,24 +26,20 @@
     "GRASS": [
         { name: "Bellsprout", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Bellsprout.png" },
         { name: "Bounsweet", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Bounsweet.png" },
-        { name: "Burmy (Plant)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Burmy%20(Plant).png" },
         { name: "Carnivine", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Carnivine.png" },
-        { name: "Caterpie", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Caterpie.png" },
-        { name: "Cherubi", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Cherubi.png" },
+         { name: "Cherubi", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Cherubi.png" },
         { name: "Cottonee", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Cottonee.png" },
         { name: "Fomantis", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Fomantis.png" },
         { name: "Gossifleur", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Gossifleur.png" },
         { name: "Hoppip", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Hoppip.png" },
         { name: "Maractus", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Maractus.png" },
-        { name: "Nidoran (F)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Nidoran%20(F).png" },
-        { name: "Nidoran (M)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Nidoran%20(M).png" },
         { name: "Oddish", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Oddish.png" },
         { name: "Paras", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Paras.png" },
         { name: "Petilil", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Petilil.png" },
         { name: "Seedot", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Seedot.png" },
         { name: "Sewaddle", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Sewaddle.png" },
-        { name: "Smoliv", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/bug/Smoliv.png" },
-        { name: "Kartana", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/bug/Kartana.png" },
+        { name: "Smoliv", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Smoliv.png" },
+        { name: "Kartana", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Kartana.png" },
         
         // Add more Pokémon with their names and image paths
     ],
@@ -97,7 +93,10 @@
         { name: "Bulbasaur", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/poison/Bulbasaur.png" },
         { name: "Spinarak", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/bug/Spinarak.png" },
         { name: "Shroodle", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/bug/Shroodle.png" },
-       
+        { name: "Nidoran (F)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Nidoran%20(F).png" },
+        { name: "Nidoran (M)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Nidoran%20(M).png" },
+        { name: "Oddish", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Oddish.png" },
+        
         // Add more Pokémon with their names and image paths
     ]   ,
     "GROUND": [
@@ -156,7 +155,8 @@
         { name: "Skorupi", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/bug/Skorupi.png" },
         { name: "Tarountula", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/bug/Tarountula.png" },
          { name: "Pinsir", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/bug/Pinsir.png" },
-        
+         { name: "Paras", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Paras.png" },
+       
         // Add more Pokémon with their names and image paths
     ]   ,
     "ROCK": [
