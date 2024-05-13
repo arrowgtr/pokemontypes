@@ -1,7 +1,7 @@
  // Define an object mapping Pokémon types to their Pokémon and images
  var pokemonByType = {
     "FIRE": [
-        { name: "Charmander", image: "charmander.png" },
+        { name: "coming soon", image: "" },
       
         // Add more Pokémon with their names and image paths
     ],
@@ -81,7 +81,7 @@
         // Add more Pokémon with their names and image paths
     ] ,
     "FIGHTING": [
-        { name: "Dwebble", image: "squirtle.png", },
+        { name: "coming soon", image: "" },
       
         // Add more Pokémon with their names and image paths
     ]   ,
@@ -100,11 +100,7 @@
         // Add more Pokémon with their names and image paths
     ]   ,
     "GROUND": [
-        { name: "Dwebble", image: "squirtle.png" },
-        { name: "Magikarp", image: "magikarp.png" },
-        { name: "Psyduck", image: "psyduck.png" },
-        { name: "Poliwag", image: "poliwag.png" },
-        { name: "Horsea", image: "horsea.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]   ,
     "FLYING": [
@@ -132,11 +128,7 @@
         // Add more Pokémon with their names and image paths
     ] ,
     "PSYCHIC": [
-        { name: "Dwebble", image: "/source/flying/normal/Chatot.png" },
-        { name: "Magikarp", image: "magikarp.png" },
-        { name: "Psyduck", image: "psyduck.png" },
-        { name: "Poliwag", image: "poliwag.png" },
-        { name: "Horsea", image: "horsea.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]   ,
     "BUG": [
@@ -178,44 +170,24 @@
     ]
     ,
     "GHOST": [
-        { name: "Dwebble", image: "squirtle.png" },
-        { name: "Magikarp", image: "magikarp.png" },
-        { name: "Psyduck", image: "psyduck.png" },
-        { name: "Poliwag", image: "poliwag.png" },
-        { name: "Horsea", image: "horsea.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]
     ,
     "DRAGON": [
-        { name: "Dwebble", image: "squirtle.png" },
-        { name: "Magikarp", image: "magikarp.png" },
-        { name: "Psyduck", image: "psyduck.png" },
-        { name: "Poliwag", image: "poliwag.png" },
-        { name: "Horsea", image: "horsea.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]    ,
     "DARK": [
-        { name: "Dwebble", image: "squirtle.png" },
-        { name: "Magikarp", image: "magikarp.png" },
-        { name: "Psyduck", image: "psyduck.png" },
-        { name: "Poliwag", image: "poliwag.png" },
-        { name: "Horsea", image: "horsea.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]   ,
     "STEEL": [
-        { name: "Dwebble", image: "squirtle.png" },
-        { name: "Magikarp", image: "magikarp.png" },
-        { name: "Psyduck", image: "psyduck.png" },
-        { name: "Poliwag", image: "poliwag.png" },
-        { name: "Horsea", image: "horsea.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]   ,
     "FAIRY": [
-        { name: "Dwebble", image: "squirtle.png" },
-        { name: "Magikarp", image: "magikarp.png" },
-        { name: "Psyduck", image: "psyduck.png" },
-        { name: "Poliwag", image: "poliwag.png" },
-        { name: "Horsea", image: "horsea.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]
     ,
