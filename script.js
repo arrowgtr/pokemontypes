@@ -138,7 +138,16 @@
         // Add more Pokémon with their names and image paths
     ]   ,
     "GROUND": [
-        { name: "coming soon", image: "" },
+        { name: "Cubone", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ground/Cubone.png" },
+        { name: "Diglett (Alolan)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ground/Diglett%20%28Alolan%29.png" },
+        { name: "Diglett", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ground/Diglett.png" },
+        { name: "Gible", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ground/Gible.png" },
+        { name: "Hippopotas", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ground/Hippopotas.png" },
+        { name: "Silicobra", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ground/Silicobra.png" },
+        { name: "Larvitar", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ground/Larvitar.png" },
+        { name: "Rhyhorn", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ground/Rhyhorn.png" },
+        { name: "Sandile", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ground/Sandile.png" }
+        ,
         // Add more Pokémon with their names and image paths
     ]   ,
     "FLYING": [
@@ -238,16 +247,54 @@
     ]
     ,
     "GHOST": [
-        { name: "coming soon", image: "" },
+        { name: "Drifloon", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Drifloon.png" },
+        { name: "Duskull", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Duskull.png" },
+        { name: "Gastly", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Gastly.png" },
+        { name: "Litwick", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Litwick.png" },
+        { name: "Misdreavus", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Misdreavus.png" },
+        { name: "Phantump", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Phantump.png" },
+        { name: "Pumpkaboo (Average)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Pumpkaboo%20%28Average%29.png" },
+        { name: "Pumpkaboo (Large)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Pumpkaboo%20%28Large%29.png" },
+        { name: "Pumpkaboo (Small)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Pumpkaboo%20%28Small%29.png" },
+        { name: "Pumpkaboo (Super)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Pumpkaboo%20%28Super%29.png" },
+        { name: "Sandygast", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Sandygast.png" },
+        { name: "Shuppet", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Shuppet.png" },
+        { name: "Yamask", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Yamask.png" },
+        { name: "Yamask (Galarian)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ghost/Yamask%20%28Galarian%29.png" }
+        
         // Add more Pokémon with their names and image paths
     ]
     ,
     "DRAGON": [
-        { name: "coming soon", image: "" },
+        { name: "Noibat", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Noibat.png" },
+        { name: "Bagon", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Bagon.png" },
+        { name: "Deino", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Deino.png" },
+        { name: "Gible", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Gible.png" },
+        { name: "Jangmo-o", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Jangmo-o.png" },
+        { name: "Goomy", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Goomy.png" },
+        { name: "Dialga", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Dialga.png" },
+        { name: "Kyurem", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Kyurem.png" },
+        { name: "Palkia", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Palkia.png" },
+        
         // Add more Pokémon with their names and image paths
     ]    ,
     "DARK": [
-        { name: "coming soon", image: "" },
+        { name: "Inkay", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Inkay.png" },
+        { name: "Poochyena", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Poochyena.png" },
+        { name: "Vullaby", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Vullaby.png" },
+        { name: "Nickit", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Nickit.png" },
+        { name: "Purrloin", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Purrloin.png" },
+        { name: "Stunky", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Stunky.png" },
+        { name: "Morpeko", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Morpeko.png" },
+        { name: "Thievul", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Thievul.png" },
+        { name: "Rattata (Alolan)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Rattata%20%28Alolan%29.png" },
+        { name: "Zigzagoon (Galarian)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Zigzagoon%20%28Galarian%29.png" },
+        { name: "Sneasel", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Sneasel.png" },
+        { name: "Sableye", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Sableye.png" },
+        { name: "Absol", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Absol.png" },
+        { name: "Yveltal", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Yveltal.png" },
+        { name: "Murkrow", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dark/Murkrow.png" },
+        
         // Add more Pokémon with their names and image paths
     ]   ,
     "STEEL": [
@@ -266,7 +313,20 @@
         // Add more Pokémon with their names and image paths
     ]   ,
     "FAIRY": [
-        { name: "coming soon", image: "" },
+        { name: "Cutiefly", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Cutiefly.png" },
+        { name: "Dedenne", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Dedenne.png" },
+        { name: "Spritzee", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Spritzee.png" },
+        { name: "Swirlix", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Swirlix.png" },
+        { name: "Comfey", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Comfey.png" },
+        { name: "Flabebe (Blue)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Flabebe%20%28Blue%29.png" },
+        { name: "Flabebe (Yellow)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Flabebe%20%28Yellow%29.png" },
+        { name: "Flabebe (Orange)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Flabebe%20%28Orange%29.png" },
+        { name: "Flabebe (Red)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Flabebe%20%28Red%29.png" },
+        { name: "Flabebe (White)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Flabebe%20%28White%29.png" },
+        { name: "Delcatty", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Delcatty.png" },
+        { name: "Impidimp", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Impidimp.png" },
+        { name: "Milcery", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fairy/Milcery.png" }
+        
         // Add more Pokémon with their names and image paths
     ]
     ,
