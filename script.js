@@ -138,7 +138,7 @@
         // Add more Pokémon with their names and image paths
     ]   ,
     "GROUND": [
-        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]   ,
     "FLYING": [
@@ -156,17 +156,47 @@
         { name: "Murkrow", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/Flying-normal/Murkrow.png" },
         { name: "Vullaby", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/Flying-normal/Vullaby.png" },
         { name: "Natu", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/Flying-normal/Natu.png" },
-         { name: "Skarmory", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/Flying-normal/Skarmory.png" },
+        { name: "Skarmory", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/Flying-normal/Skarmory.png" },
         { name: "Squawkabilly (White)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/Flying-normal/Squawkabilly%20(White).png" },
         { name: "Squawkabilly (Yellow)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/Flying-normal/Squawkabilly%20(Yellow).png" },
         { name: "Yanma", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/Flying-normal/Yanma.png" },
         { name: "Bombirdier", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/Flying-normal/Bombirdier.png" },
-         { name: "Gligar", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/Flying-normal/Gligar.png" },
+        { name: "Gligar", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/Flying-normal/Gligar.png" },
 
         // Add more Pokémon with their names and image paths
     ] ,
     "PSYCHIC": [
-        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
+        { name: "Baltoy", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Baltoy.png" },
+        { name: "Bronzor", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Bronzor.png" },
+        { name: "Drowzee", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Drowzee.png" },
+        { name: "Elgyem", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Elgyem.png" },
+        { name: "Gothita", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Gothita.png" },
+        { name: "Indeedee (F)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Indeedee%20%28F%29.png" },
+        { name: "Indeedee (M)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Indeedee%20%28M%29.png" },
+        { name: "Meditite", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Meditite.png" },
+        { name: "Natu", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Natu.png" },
+        { name: "Oranguru", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Oranguru.png" },
+        { name: "Sigilyph", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Sigilyph.png" },
+        { name: "Slowpoke", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Slowpoke.png" },
+        { name: "Solosis", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Solosis.png" },
+        { name: "Spoink", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Spoink.png" },
+        { name: "Abra", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Abra.png" },
+        { name: "Duosion", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Duosion.png" },
+        { name: "Espurr", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Espurr.png" },
+        { name: "Gothorita", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Gothorita.png" },
+        { name: "Hatenna", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Hatenna.png" },
+        { name: "Lunatone", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Lunatone.png" },
+        { name: "Oricorio (Pa'u)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Oricorio%20%28Pa%27u%29.png" },
+        { name: "Ponyta (Galarian)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Ponyta%20%28Galarian%29.png" },
+        { name: "Slowpoke (Galarian)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Slowpoke%20%28Galarian%29.png" },
+        { name: "Girafarig", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Girafarig.png" },
+        { name: "Munna", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Munna.png" },
+        { name: "Ralts", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Ralts.png" },
+        { name: "Cresselia", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Cresselia.png" },
+        { name: "Latias", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Latias.png" },
+        { name: "Latios", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Latios.png" },
+        { name: "Mewtwo", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/psychic/Mewtwo.png" }
+
         // Add more Pokémon with their names and image paths
     ]   ,
     "BUG": [
@@ -208,16 +238,16 @@
     ]
     ,
     "GHOST": [
-        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]
     ,
     "DRAGON": [
-        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]    ,
     "DARK": [
-        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]   ,
     "STEEL": [
@@ -236,7 +266,7 @@
         // Add more Pokémon with their names and image paths
     ]   ,
     "FAIRY": [
-        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
+        { name: "coming soon", image: "" },
         // Add more Pokémon with their names and image paths
     ]
     ,
