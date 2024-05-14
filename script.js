@@ -138,7 +138,7 @@
         // Add more Pokémon with their names and image paths
     ]   ,
     "GROUND": [
-        { name: "coming soon", image: "" },
+        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
         // Add more Pokémon with their names and image paths
     ]   ,
     "FLYING": [
@@ -166,7 +166,7 @@
         // Add more Pokémon with their names and image paths
     ] ,
     "PSYCHIC": [
-        { name: "coming soon", image: "" },
+        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
         // Add more Pokémon with their names and image paths
     ]   ,
     "BUG": [
@@ -208,16 +208,16 @@
     ]
     ,
     "GHOST": [
-        { name: "coming soon", image: "" },
+        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
         // Add more Pokémon with their names and image paths
     ]
     ,
     "DRAGON": [
-        { name: "coming soon", image: "" },
+        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
         // Add more Pokémon with their names and image paths
     ]    ,
     "DARK": [
-        { name: "coming soon", image: "" },
+        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
         // Add more Pokémon with their names and image paths
     ]   ,
     "STEEL": [
@@ -236,7 +236,7 @@
         // Add more Pokémon with their names and image paths
     ]   ,
     "FAIRY": [
-        { name: "coming soon", image: "" },
+        { name: "coming soon", image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" },
         // Add more Pokémon with their names and image paths
     ]
     ,

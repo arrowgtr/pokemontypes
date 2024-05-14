@@ -1,274 +1,313 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffff00;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffff00;
+}
+header {
+  position: relative;
+  height: 180px;
+width: 80%;
+right: 54px;
+background-color: black;
+margin: 2px 2px 1px 93px;
+padding-left: 83px;
+display: flex;
+justify-content: center;
+}
+header h1 {
+  position: relative;
+  right: 42px;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 34px;
+  font-weight: bolder;
+  background-image: linear-gradient(to left, #d8c70e, #fffb00);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+@media screen and (min-width: 992px) {
+  header {
+      position: relative;
+      left: 83px;
+     display: flex;
+     justify-content: center;
+
+  }
 }
 
 .container {
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #000000;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 @media screen and (min-width: 992px) {
-    .container {
-    width: 70%;
-    }
+  .container {
+  width: 70%;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+th, td 
+{
+      width: auto;
+      text-align: center;
+      border: 1px solid #ddd;
+      padding: 8px;
+      font-size: 32px;
+      }
   }
 
 
-  @media screen and (min-width: 992px) {
-  th, td 
- {
-        width: auto;
-        text-align: center;
-        border: 1px solid #ddd;
-        padding: 8px;
-        font-size: 32px;
-        }
-    }
-
-
 h1 {
-    color: #fff;
-    text-align: center;
+  color: #fff;
+  text-align: center;
 }
 
 select {
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 25px;
-    font-weight: bolder;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
 button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #000000;
-    font-weight: bolder;
-    font-size: 25px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-   
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
 }
 
 
 
 table {
- 
-    color: #fff;
-    width: 100%;
-    border-collapse: collapse;
+
+  color: #fff;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 th, td {
-    text-align: center;
-    border: 1px solid #ddd;
-    padding: 8px;
-    font-size: 32px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 32px;
 
 }
 
 td1{
-    width: 100%;
+  width: 100%;
 }
 
 th {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 #options
 {   background-color: #ffffff;
- 
+
 }
 #options:hover
 {   background-color: #ffffff;
- 
+
 }
 
 
 
 /* Set the background color for each option based on its value */
 option[value="FIRE"] {
-    background-color: #EE8130; /* Fire type color */
+  background-color: #EE8130; /* Fire type color */
 }
 
 option[value="WATER"] {
-    background-color: #6390F0; /* Water type color */
+  background-color: #6390F0; /* Water type color */
 }
 
 option[value="GRASS"] {
-    background-color: #7AC74C; /* Grass type color */
+  background-color: #7AC74C; /* Grass type color */
 }
 
 option[value="ELECTRIC"] {
-    background-color: #F7D02C; /* Electric type color */
+  background-color: #F7D02C; /* Electric type color */
 }
 
 option[value="ICE"] {
-    background-color: #96D9D6; /* Ice type color */
+  background-color: #96D9D6; /* Ice type color */
 }
 
 option[value="FIGHTING"] {
-    background-color: #C22E28; /* Fighting type color */
+  background-color: #C22E28; /* Fighting type color */
 }
 
 option[value="POISON"] {
-    background-color: #A33EA1; /* Poison type color */
+  background-color: #A33EA1; /* Poison type color */
 }
 
 option[value="GROUND"] {
-    background-color: #E2BF65; /* Ground type color */
+  background-color: #E2BF65; /* Ground type color */
 }
 
 option[value="FLYING"] {
-    background-color: #A98FF3; /* Flying type color */
+  background-color: #A98FF3; /* Flying type color */
 }
 
 option[value="PSYCHIC"] {
-    background-color: #F95587; /* Psychic type color */
+  background-color: #F95587; /* Psychic type color */
 }
 
 option[value="BUG"] {
-    background-color: #A6B91A; /* Bug type color */
+  background-color: #A6B91A; /* Bug type color */
 }
 
 option[value="ROCK"] {
-    background-color: #B6A136; /* Rock type color */
+  background-color: #B6A136; /* Rock type color */
 }
 
 option[value="GHOST"] {
-    background-color: #735797; /* Ghost type color */
+  background-color: #735797; /* Ghost type color */
 }
 
 option[value="DRAGON"] {
-    background-color: #6F35FC; /* Dragon type color */
+  background-color: #6F35FC; /* Dragon type color */
 }
 
 option[value="DARK"] {
-    background-color: #705746; /* Dark type color */
+  background-color: #705746; /* Dark type color */
 }
 
 option[value="STEEL"] {
-    background-color: #B7B7CE; /* Steel type color */
+  background-color: #B7B7CE; /* Steel type color */
 }
 
 option[value="FAIRY"] {
-    background-color: #D685AD; /* Fairy type color */
+  background-color: #D685AD; /* Fairy type color */
 }
 
 option[value="NORMAL"] {
-    background-color: #A8A77A; /* Normal type color */
+  background-color: #A8A77A; /* Normal type color */
 }
 
 
 p{
- text-align: center;   
- color: #fff;
- font-size: 33px;
- font-weight: bolder;
- margin: 0;
- margin-top: 12px;
- margin-bottom: 12px;
+text-align: center;   
+color: #fff;
+font-size: 33px;
+font-weight: bolder;
+margin: 0;
+margin-top: 12px;
+margin-bottom: 12px;
 }
 
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
 }
 
 
 .footer {
-  position: relative;
-  width: 100%;
-  background: #3586ff;
-  min-height: 100px;
-  top: 555px;
-  padding: 20px 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+position: relative;
+width: 100%;
+background: #3586ff;
+min-height: 100px;
+top: 342px;
+padding: 20px 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+@media screen and (min-width: 992px) {
+  .footer {
+      position: relative;
+    top: 373px;
+
+  }
 }
 
 
 
 .footer p {
-  color: #fff;
-  margin: 15px 0 10px 0;
-  font-size: 1rem;
-  font-weight: 300;
+color: #fff;
+margin: 15px 0 10px 0;
+font-size: 1rem;
+font-weight: 300;
 }
 
 .wave {
-  position: absolute;
-  top: -100px;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  background: url("https://i.ibb.co/wQZVxxk/wave.png");
-  background-size: 1000px 100px;
+position: absolute;
+top: -100px;
+left: 0;
+width: 100%;
+height: 100px;
+background: url("https://i.ibb.co/wQZVxxk/wave.png");
+background-size: 1000px 100px;
 }
 
 .wave#wave1 {
-  z-index: 1000;
-  opacity: 1;
-  bottom: 0;
-  animation: animateWaves 4s linear infinite;
+z-index: 1000;
+opacity: 1;
+bottom: 0;
+animation: animateWaves 4s linear infinite;
 }
 
 .wave#wave2 {
-  z-index: 999;
-  opacity: 0.5;
-  bottom: 10px;
-  animation: animate 4s linear infinite !important;
+z-index: 999;
+opacity: 0.5;
+bottom: 10px;
+animation: animate 4s linear infinite !important;
 }
 
 .wave#wave3 {
-  z-index: 1000;
-  opacity: 0.2;
-  bottom: 15px;
-  animation: animateWaves 3s linear infinite;
+z-index: 1000;
+opacity: 0.2;
+bottom: 15px;
+animation: animateWaves 3s linear infinite;
 }
 
 .wave#wave4 {
-  z-index: 999;
-  opacity: 0.7;
-  bottom: 20px;
-  animation: animate 3s linear infinite;
+z-index: 999;
+opacity: 0.7;
+bottom: 20px;
+animation: animate 3s linear infinite;
 }
 
 @keyframes animateWaves {
-  0% {
-    background-position-x: 1000px;
-  }
-  100% {
-    background-positon-x: 0px;
-  }
+0% {
+  background-position-x: 1000px;
+}
+100% {
+  background-positon-x: 0px;
+}
 }
 
 @keyframes animate {
-  0% {
-    background-position-x: -1000px;
-  }
-  100% {
-    background-positon-x: 0px;
-  }
+0% {
+  background-position-x: -1000px;
+}
+100% {
+  background-positon-x: 0px;
+}
 }
