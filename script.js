@@ -1,7 +1,27 @@
  // Define an object mapping Pokémon types to their Pokémon and images
  var pokemonByType = {
     "FIRE": [
-        { name: "coming soon", image: "" },
+        { name: "Darumaka", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Darumaka.png" },
+        { name: "Growlithe", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Growlithe.png" },
+        { name: "Heatmor", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Heatmor.png" },
+        { name: "Houndour", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Houndour.png" },
+        { name: "Litwick", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Litwick.png" },
+        { name: "Numel", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Numel.png" },
+        { name: "Slugma", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Slugma.png" },
+        { name: "Torkoal", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Torkoal.png" },
+        { name: "Vulpix", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Vulpix.png" },
+        { name: "Fletchinder", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Fletchinder.png" },
+        { name: "Growlithe (Hisuian)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Growlithe%20%28Hisuian%29.png" },
+        { name: "Turtonator", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Turtonator.png" },
+        { name: "Chimchar", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Chimchar.png" },
+        { name: "Litten", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Litten.png" },
+        { name: "Scorbunny", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Scorbunny.png" },
+        { name: "Sizzlipede", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Sizzlipede.png" },
+        { name: "Tepig", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Tepig.png" },
+        { name: "Torchic", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Torchic.png" },
+        { name: "Fuecoco", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Fuecoco.png" },
+        { name: "Larvesta", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Larvesta.png" },
+        
       
         // Add more Pokémon with their names and image paths
     ],
@@ -81,7 +101,25 @@
         // Add more Pokémon with their names and image paths
     ] ,
     "FIGHTING": [
-        { name: "coming soon", image: "" },
+        { name: "Pancham", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Pancham.png" },
+        { name: "Clobbopus", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Clobbopus.png" },
+        { name: "Croagunk", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Croagunk.png" },
+        { name: "Meditite", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Meditite.png" },
+        { name: "Scraggy", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Scraggy.png" },
+        { name: "Throh", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Throh.png" },
+        { name: "Sawk", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Sawk.png" },
+        { name: "Stufful", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Stufful.png" },
+        { name: "Kubfu", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Kubfu.png" },
+        { name: "Hawlucha", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Hawlucha.png" },
+        { name: "Mankey", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Mankey.png" },
+        { name: "Mienfoo", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Mienfoo.png" },
+        { name: "Squawkabilly (Blue)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Squawkabilly%20%28Blue%29.png" },
+        { name: "Squawkabilly (Green)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Squawkabilly%20%28Green%29.png" },
+        { name: "Tauros (Combat)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Tauros%20%28Combat%29.png" },
+        { name: "Tauros (Aqua)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Tauros%20%28Aqua%29.png" },
+        { name: "Tauros (Blaze)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Tauros%20%28Blaze%29.png" },
+        { name: "Buzzwole", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Buzzwole.png" },
+        
       
         // Add more Pokémon with their names and image paths
     ]   ,
@@ -183,7 +221,18 @@
         // Add more Pokémon with their names and image paths
     ]   ,
     "STEEL": [
-        { name: "coming soon", image: "" },
+        { name: "Bronzor", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/steel/Bronzor.png" },
+        { name: "Cufant", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/steel/Cufant.png" },
+        { name: "Ferroseed", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/steel/Ferroseed.png" },
+        { name: "Klink", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/steel/Klink.png" },
+        { name: "Klefki", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/steel/Klefki.png" },
+        { name: "Magnemite", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/steel/Magnemite.png" },
+        { name: "Mawile", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/steel/Mawile.png" }, 
+        { name: "Durant", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/steel/Durant.png" },
+        { name: "Duraludon", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/steel/Duraludon.png" },
+        { name: "Metang", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/steel/Metang.png" }, 
+        { name: "Registeel", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/steel/Registeel.png" } ,
+        
         // Add more Pokémon with their names and image paths
     ]   ,
     "FAIRY": [
