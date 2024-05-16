@@ -7,7 +7,7 @@ body {
 }
 
 header {
-
+  cursor: pointer;
   margin: auto;
   position: relative;
   text-align: center;
@@ -17,11 +17,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-    
 }
 
 header h1 {
-      cursor: pointer;
   font-size: 5vw; /* Responsive font size */
   margin: 0;
   font-weight: bolder;
@@ -71,7 +69,7 @@ button {
 }
 
 button:hover {
-  background-color: #060972;
+  background-color: yellow;
 }
 
 /* Table Styles */
@@ -463,7 +461,15 @@ option[value="FIRE"] {
   
 
 
+  .typescontainer 
+  {
 
+
+    color: yellow;
+     
+
+     
+   }
 
   .typescontainer {
 position: relative;
@@ -481,14 +487,12 @@ padding-bottom: 34px;
 
 
   
-  .typescontainer h2 {
-    text-align: center;
-position: relative;
-bottom: 101px;
-margin-bottom: 22px;
-left: 17%;
-transform: translateX(-50%,-50%);
-        font-size: 44px;
+h2 {
+position: absolute;
+text-align: center;
+top: 3px;
+font-size: 72px;
+
        color: yellow;
         
    
@@ -539,67 +543,196 @@ transform: translateX(-50%,-50%);
     align-content: flex-start;
     position: relative;
     top:8px;
+    justify-content: center;
     color: #007bff;
     text-align: center;
   }
 
-  .popup-content img {
+  .popup-content  img {
 position: relative;
 top: 13px;
   
   }
   
 @media (min-width: 320px) and (max-width: 1420px) {
-    .popup-content img {
-       width: 35px;
-        
-        
-          }
-  }
-  
-  @ media (min-width: 421px) and (max-width: 768px) {
-    header h1 {
-      font-size: 60px;
-    }
-    .container h1 {
-      font-size: 30px;
-    }
-    #options {
-      font-size: 20px;
-    }
-    button {
-      font-size: 20px;
-    }
-    .footer p {
-      font-size: 14px;
-    }
-  }
-  
-  @media (min-width: 1069px) {
-   
+  .popup-content {
+    width: 280px;
+    border: solid 5px yellow;
     
-          strong{
-        color: #f6ff00;
-            text-align: center;
- font-size: 73px;
-            position: relative;
-            top:-18px;
      
-      
+     
+       } 
+
+
+       strong {
+        position: relative;
+        top: 23px;
+ font-size: 34px;
+         color: yellow;
+         
+           } 
+  .popup-content img {
+    position: relative;
+    top: 33px;
+       width: 45px;
+        
+        
           }
 
 
+          #typeTitle img{
+           
+            position: relative;
+            left: 95px;
+            top: -3px;
+            margin-bottom: 12px;
+         
+         
+
+       
+          }
+  }
+  
+  @media (min-width: 521px) and (max-width: 778px) {
+  
+    .popup-content {
+      width: 480px;
+       
+       
+         } 
+  
+  
+         strong {
+          position: relative;
+          top: 23px;
+   font-size: 44px;
+           color: yellow;
+           
+             } 
+    .popup-content img {
+      position: relative;
+      top: 33px;
+         width: 65px;
+          
+          
+            }
+  
+  
+            #typeTitle img{
+              position: relative;
+              left: 189px;
+              top: -3px;
+              margin-bottom: 12px;
+            }
+  }
+
+  @media (min-width: 987px) {
+    
+    .popup-content {
+      padding-top: 33px;
+      width: 880px;
+       height: 500px;
+       cursor: default;
+         } 
+  
+  
+         strong {
+          position: relative;
+          top: 93px;
+   font-size: 54px;
+           color: #fff200;
+           
+             } 
+    .popup-content img {
+      position: relative;
+      top:113px;
+         width: 95px;
+          
+          
+            }
+  
+  
+            #typeTitle img{
+              position: relative;
+              left: 360px;
+              top: 23px;
+  
+            }
+
+         h2{
+      font-size: 99px;
+      margin-bottom: 244px;
+      position: absolute;
+      top: -2px;
+
+          }
       
+          .typescontainer{
+            padding-top: 133px;
+            cursor: pointer;
+       
 
+          }
 
+          img {
+            width: 120px;
+          }
         }
 
   
   
-#typeTitle{
-    font-size: 22px;
-    position: relative;
-    top: 5px;
-    left: -18px;
-   
-}
+        @media (min-width: 1887px) {
+    
+          .popup-content {
+            padding-top: 33px;
+            width: 1380px;
+             height: 600px;
+             cursor: default;
+               } 
+        
+        
+               strong {
+                position: relative;
+                top: 93px;
+         font-size: 84px;
+                 color: #fff200;
+                 
+                   } 
+          .popup-content img {
+            position: relative;
+            top:113px;
+               width: 95px;
+                
+                
+                  }
+        
+        
+                  #typeTitle img{
+                    position: relative;
+                    left: 590px;
+                    top: 23px;
+        
+                  }
+      
+               h2{
+            font-size: 99px;
+            margin-bottom: 244px;
+            position: absolute;
+            top: -2px;
+      
+                }
+            
+                .typescontainer{
+                  padding-top: 133px;
+                  cursor: pointer;
+             
+      
+                }
+      
+                img {
+                  width: 120px;
+                }
+              }
+      
+        
+        
