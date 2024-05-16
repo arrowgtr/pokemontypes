@@ -1,48 +1,67 @@
  // Define an object mapping Pokémon types to their Pokémon and images
  var pokemonByType = {
     "FIRE": [
-        { name: "Darumaka", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Darumaka.png" },
-        { name: "Growlithe", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Growlithe.png" },
-        { name: "Heatmor", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Heatmor.png" },
-        { name: "Houndour", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Houndour.png" },
-        { name: "Litwick", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Litwick.png" },
-        { name: "Numel", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Numel.png" },
-        { name: "Slugma", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Slugma.png" },
-        { name: "Torkoal", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Torkoal.png" },
-        { name: "Vulpix", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Vulpix.png" },
-        { name: "Fletchinder", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Fletchinder.png" },
-        { name: "Growlithe (Hisuian)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Growlithe%20%28Hisuian%29.png" },
-        { name: "Turtonator", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Turtonator.png" },
-        { name: "Chimchar", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Chimchar.png" },
-        { name: "Litten", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Litten.png" },
-        { name: "Scorbunny", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Scorbunny.png" },
-        { name: "Sizzlipede", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Sizzlipede.png" },
-        { name: "Tepig", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Tepig.png" },
-        { name: "Torchic", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Torchic.png" },
-        { name: "Fuecoco", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Fuecoco.png" },
-        { name: "Larvesta", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Larvesta.png" },
+        { name: "Darumaka", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Darumaka.png", rarity: "Common" },
+        { name: "Growlithe", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Growlithe.png", rarity: "Common" },
+        { name: "Heatmor", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Heatmor.png", rarity: "Common" },
+        { name: "Houndour", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Houndour.png", rarity: "Common" },
+        { name: "Litwick", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Litwick.png", rarity: "Common" },
+        { name: "Numel", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Numel.png", rarity: "Common" },
+        { name: "Slugma", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Slugma.png", rarity: "Common" },
+        { name: "Torkoal", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Torkoal.png", rarity: "Common" },
+        { name: "Vulpix", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Vulpix.png", rarity: "Common" },
+        { name: "Fletchinder", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Fletchinder.png", rarity: "Uncommon" },
+        { name: "Growlithe (Hisuian)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Growlithe%20%28Hisuian%29.png", rarity: "Uncommon" },
+        { name: "Turtonator", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Turtonator.png", rarity: "Uncommon" },
+        { name: "Chimchar", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Chimchar.png", rarity: "Rare" },
+        { name: "Litten", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Litten.png", rarity: "Rare" },
+        { name: "Scorbunny", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Scorbunny.png", rarity: "Rare" },
+        { name: "Sizzlipede", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Sizzlipede.png", rarity: "Rare" },
+        { name: "Tepig", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Tepig.png", rarity: "Rare" },
+        { name: "Torchic", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Torchic.png", rarity: "Rare" },
+        { name: "Fuecoco", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Fuecoco.png", rarity: "Rare" },
+        { name: "Larvesta", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fire/Larvesta.png", rarity: "Rare" },
         
       
         // Add more Pokémon with their names and image paths
     ],
     "WATER": [
-        { name: "Buizel", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Buizel.png" },
-        { name: "Chewtle", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Chewtle.png" },
-        { name: "Dewpider", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Dewpider.png" },
-        { name: "Ducklett", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Ducklett.png" },
-        { name: "Lotad", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Lotad.png" },
-        { name: "Panpour", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Panpour.png" },
-        { name: "Psyduck", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Psyduck.png" },
-        { name: "Sandshrew (Alolan)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Sandshrew%20(Alolan).png" },
-        { name: "Wiglett", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Wiglett.png" },
-        { name: "Oshawott", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Oshawott.png" },
-        { name: "Piplup", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Piplup.png" },
-        { name: "Squirtle", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Squirtle.png" },
-        { name: "Spheal", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Spheal.png" },
+        { name: "Buizel", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Buizel.png", rarity: "Common" },
+        { name: "Chewtle", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Chewtle.png", rarity: "Common" },
+        { name: "Dewpider", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Dewpider.png", rarity: "Common" },
+        { name: "Ducklett", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Ducklett.png", rarity: "Common" },
+        { name: "Lotad", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Lotad.png", rarity: "Common" },
+        { name: "Panpour", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Panpour.png", rarity: "Uncommon" },
+        { name: "Psyduck", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Psyduck.png", rarity: "Uncommon" },
+        { name: "Sandshrew (Alolan)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Sandshrew%20(Alolan).png", rarity: "Uncommon" },
+        { name: "Wiglett", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Wiglett.png", rarity: "Uncommon" },
+        { name: "Oshawott", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Oshawott.png", rarity: "Rare" },
+        { name: "Piplup", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Piplup.png", rarity: "Rare" },
+        { name: "Squirtle", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Squirtle.png", rarity: "Rare" },
+        { name: "Spheal", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Spheal.png", rarity: "Common" },
+        { name: "Lapras", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Lapras.png", rarity: "Rare" },
+       
+        // Add more Pokémon with their names and image paths
+    ] ,
+    "ICE": [
+        { name: "Spheal", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Spheal.png" },
+        { name: "Bergmite", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Bergmite.png" },
+        { name: "Cubchoo", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Cubchoo.png" },
+        { name: "Delibird", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Delibird.png" },
+        { name: "Snorunt", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Snorunt.png" },
+        { name: "Snover", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Snover.png" },
+        { name: "Swinub", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Swinub.png" },
+        { name: "Vanillite", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Vanillite.png" },
+        { name: "Eiscue", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Eiscue.png" },
+        { name: "Darumaka (Galarian)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Darumaka%20(Galarian).png" },
+        { name: "Snom", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Snom.png" },
+        { name: "Vulpix (Alolan)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Vulpix%20(Alolan).png" },
+        { name: "Frigibax", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Frigibax.png" },
         { name: "Lapras", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Lapras.png" },
        
         // Add more Pokémon with their names and image paths
     ] ,
+    
     "GRASS": [
         { name: "Bellsprout", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Bellsprout.png" },
         { name: "Bounsweet", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/grass/Bounsweet.png" },
@@ -82,24 +101,7 @@
         // Add more Pokémon with their names and image paths
     ],
 
-"ICE": [
-        { name: "Spheal", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Spheal.png" },
-        { name: "Bergmite", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Bergmite.png" },
-        { name: "Cubchoo", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Cubchoo.png" },
-        { name: "Delibird", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Delibird.png" },
-        { name: "Snorunt", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Snorunt.png" },
-        { name: "Snover", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Snover.png" },
-        { name: "Swinub", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Swinub.png" },
-        { name: "Vanillite", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Vanillite.png" },
-        { name: "Eiscue", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Eiscue.png" },
-        { name: "Darumaka (Galarian)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Darumaka%20(Galarian).png" },
-        { name: "Snom", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Snom.png" },
-        { name: "Vulpix (Alolan)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Vulpix%20(Alolan).png" },
-        { name: "Frigibax", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/ice/Frigibax.png" },
-        { name: "Lapras", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/water/Lapras.png" },
-       
-        // Add more Pokémon with their names and image paths
-    ] ,
+
     "FIGHTING": [
         { name: "Pancham", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Pancham.png" },
         { name: "Clobbopus", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/fighting/Clobbopus.png" },
@@ -275,7 +277,11 @@
         { name: "Dialga", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Dialga.png" },
         { name: "Kyurem", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Kyurem.png" },
         { name: "Palkia", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Palkia.png" },
-        
+        { name: "Duraludon", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Duraludon.png", rarity: "rare" },
+        { name: "Druddigon", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Druddigon.png", rarity: "uncommon" },
+        { name: "Drampa", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Drampa.png", rarity: "uncommon" },
+        { name: "Zygarde (Cell)", image: "https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/source/dragon/Zygarde%20%28Cell%29.png", rarity: "legendary" },
+     
         // Add more Pokémon with their names and image paths
     ]    ,
     "DARK": [
@@ -361,8 +367,8 @@ function showPokemonList() {
       
 
         var table = document.createElement("table");
-        table.innerHTML = "</tr><tr><th>Pokémon</th><th>Image</th></tr>";
-
+        table.innerHTML = "</tr><tr><th>Pokémon</th><th>Image</th><th>Rarity</th></tr>";
+        
         pokemonList.forEach(function(pokemon) {
             var row = table.insertRow();
             var nameCell = row.insertCell();
@@ -373,10 +379,139 @@ function showPokemonList() {
             img.alt = pokemon.name;
             img.style.maxWidth = "40px"; // Adjust image size as needed
             imageCell.appendChild(img);
+            var rarityCell = row.insertCell();
+            rarityCell.textContent = pokemon.rarity;
         });
-
+        
         container.appendChild(table);
+        
     } else {
         container.textContent = "No Pokémon of this type available.";
+    }
+}
+
+
+// Data for matchups
+const matchups = {
+    normal: {
+        title: "Normal Type",
+        weaknesses: ["fighting"],
+        strengths: []
+    },
+    fire: {
+        title: "Fire Type",
+        weaknesses: ["ground", "water", "rock"],
+        strengths: ["grass", "bug", "ice"]
+    },
+    water: {
+        title: "Water Type",
+        weaknesses: ["electric", "grass"],
+        strengths: ["fire", "ground", "rock"]
+    },
+    electric: {
+        title: "Electric Type",
+        weaknesses: ["ground"],
+        strengths: ["water", "flying"]
+    },
+    grass: {
+        title: "Grass Type",
+        weaknesses: ["fire", "ice", "poison", "flying", "bug"],
+        strengths: ["water", "ground", "rock"]
+    },
+    ice: {
+        title: "Ice Type",
+        weaknesses: ["fire", "fighting", "rock", "steel"],
+        strengths: ["grass", "ground", "flying", "dragon"]
+    },
+    fighting: {
+        title: "Fighting Type",
+        weaknesses: ["flying", "psychic", "fairy"],
+        strengths: ["normal", "ice", "rock", "dark", "steel"]
+    },
+    poison: {
+        title: "Poison Type",
+        weaknesses: ["ground", "psychic"],
+        strengths: ["grass", "fairy"]
+    },
+    ground: {
+        title: "Ground Type",
+        weaknesses: ["water", "grass", "ice"],
+        strengths: ["fire", "electric", "poison", "rock", "steel"]
+    },
+    flying: {
+        title: "Flying Type",
+        weaknesses: ["electric", "ice", "rock"],
+        strengths: ["grass", "fighting", "bug"]
+    },
+    psychic: {
+        title: "Psychic Type",
+        weaknesses: ["bug", "ghost", "dark"],
+        strengths: ["fighting", "poison"]
+    },
+    bug: {
+        title: "Bug Type",
+        weaknesses: ["fire", "flying", "rock"],
+        strengths: ["grass", "psychic", "dark"]
+    },
+    rock: {
+        title: "Rock Type",
+        weaknesses: ["water", "grass", "fighting", "ground", "steel"],
+        strengths: ["fire", "ice", "flying", "bug"]
+    },
+    ghost: {
+        title: "Ghost Type",
+        weaknesses: ["ghost", "dark"],
+        strengths: ["psychic", "ghost"]
+    },
+    dragon: {
+        title: "Dragon Type",
+        weaknesses: ["ice", "dragon", "fairy"],
+        strengths: ["dragon"]
+    },
+    dark: {
+        title: "Dark Type",
+        weaknesses: ["fighting", "bug", "fairy"],
+        strengths: ["psychic", "ghost"]
+    },
+    steel: {
+        title: "Steel Type",
+        weaknesses: ["fire", "fighting", "ground"],
+        strengths: ["ice", "rock", "fairy"]
+    },
+    fairy: {
+        title: "Fairy Type",
+        weaknesses: ["poison", "steel"],
+        strengths: ["fighting", "dragon", "dark"]
+    }
+};
+
+// Function to show matchup popup
+function showMatchupPopup(type) {
+    const popup = document.getElementById("matchupPopup");
+    const typeData = matchups[type];
+    
+    document.getElementById("typeTitle").textContent = typeData.title;
+    
+    const weaknessesHTML = typeData.weaknesses.map(t => `<img src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/${t}.png" width="60px">`).join(" ");
+    document.getElementById("weaknesses").innerHTML = `<strong>Weaknesses:</strong> ${weaknessesHTML}`;
+    
+    const strengthsHTML = typeData.strengths.map(t => `<img src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/${t}.png" width="60px">`).join(" ");
+    document.getElementById("strengths").innerHTML = `<strong>Strengths:</strong> ${strengthsHTML}`;
+    
+    popup.style.display = "block";
+    document.addEventListener("keydown", closeOnEsc);
+}
+
+// Function to close popup
+function closePopup() {
+    const popup = document.getElementById("matchupPopup");
+    popup.style.display = "none";
+    document.removeEventListener("keydown", closeOnEsc);
+}
+
+// Function to close popup when Esc key is pressed
+function closeOnEsc(event) {
+    if (event.key === "Escape") {
+        closePopup();
     }
 }

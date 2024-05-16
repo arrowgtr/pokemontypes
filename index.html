@@ -8,7 +8,12 @@
     
 </head>
 <body>
-    <header><h1>POKEMON</h1></header>
+   
+    <header onclick="location.href='index.html'">
+        <h1>POKEMON</h1>
+      </header>
+      
+
 
     <div class="container">
         <h1>TYPES</h1>
@@ -37,8 +42,42 @@
         <div id="pokemonListContainer"></div>
     </div>
 
+ 
+    <div class="typescontainer">
+        <h2>Matchup</h2>
+        <img id="normalType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/normal.png" alt="Normal Type" onclick="showMatchupPopup('normal')" />
+        <img id="fireType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/fire.png" alt="Fire Type" onclick="showMatchupPopup('fire')" />
+        <img id="waterType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/water.png" alt="Water Type" onclick="showMatchupPopup('water')" />
+        <img id="electricType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/electric.png" alt="Electric Type" onclick="showMatchupPopup('electric')" />
+        <img id="grassType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/grass.png" alt="Grass Type" onclick="showMatchupPopup('grass')" />
+        <img id="iceType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/ice.png" alt="Ice Type" onclick="showMatchupPopup('ice')" />
+        <img id="fightingType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/fighting.png" alt="Fighting Type" onclick="showMatchupPopup('fighting')" />
+        <img id="poisonType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/poison.png" alt="Poison Type" onclick="showMatchupPopup('poison')" />
+        <img id="groundType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/ground.png" alt="Ground Type" onclick="showMatchupPopup('ground')" />
+        <img id="flyingType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/flying.png" alt="Flying Type" onclick="showMatchupPopup('flying')" />
+        <img id="psychicType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/psychic.png" alt="Psychic Type" onclick="showMatchupPopup('psychic')" />
+        <img id="bugType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/bug.png" alt="Bug Type" onclick="showMatchupPopup('bug')" />
+        <img id="rockType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/rock.png" alt="Rock Type" onclick="showMatchupPopup('rock')" />
+        <img id="ghostType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/ghost.png" alt="Ghost Type" onclick="showMatchupPopup('ghost')" />
+        <img id="dragonType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/dragon.png" alt="Dragon Type" onclick="showMatchupPopup('dragon')" />
+        <img id="darkType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/dark.png" alt="Dark Type" onclick="showMatchupPopup('dark')" />
+        <img id="steelType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/steel.png" alt="Steel Type" onclick="showMatchupPopup('steel')" />
+        <img id="fairyType" src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/fairy.png" alt="Fairy Type" onclick="showMatchupPopup('fairy')" />
 
-    <footer class="footer">
+        <!-- Add more type images here -->
+
+        <!-- Matchup Popup -->
+        <div id="matchupPopup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <h2 id="typeTitle"></h2>
+                <p id="weaknesses"></p>
+                <p id="strengths"></p>
+            </div>
+        </div>
+    </div>
+
+<footer class="footer">
         <div class="waves">
           <div class="wave" id="wave1"></div>
           <div class="wave" id="wave2"></div>
