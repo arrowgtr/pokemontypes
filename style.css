@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  cursor: pointer;
+
   margin: auto;
   position: relative;
   text-align: center;
@@ -17,9 +17,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+    
 }
 
 header h1 {
+      cursor: pointer;
   font-size: 5vw; /* Responsive font size */
   margin: 0;
   font-weight: bolder;
