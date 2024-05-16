@@ -390,96 +390,95 @@ function showPokemonList() {
     }
 }
 
-
 // Data for matchups
 const matchups = {
     normal: {
-        title: "Normal Type",
+        title: "normal",
         weaknesses: ["fighting"],
         strengths: []
     },
     fire: {
-        title: "Fire Type",
+        title: "fire",
         weaknesses: ["ground", "water", "rock"],
         strengths: ["grass", "bug", "ice"]
     },
     water: {
-        title: "Water Type",
+        title: "water",
         weaknesses: ["electric", "grass"],
         strengths: ["fire", "ground", "rock"]
     },
     electric: {
-        title: "Electric Type",
+        title: "electric",
         weaknesses: ["ground"],
         strengths: ["water", "flying"]
     },
     grass: {
-        title: "Grass Type",
+        title: "grass",
         weaknesses: ["fire", "ice", "poison", "flying", "bug"],
         strengths: ["water", "ground", "rock"]
     },
     ice: {
-        title: "Ice Type",
+        title: "ice",
         weaknesses: ["fire", "fighting", "rock", "steel"],
         strengths: ["grass", "ground", "flying", "dragon"]
     },
     fighting: {
-        title: "Fighting Type",
+        title: "fighting",
         weaknesses: ["flying", "psychic", "fairy"],
         strengths: ["normal", "ice", "rock", "dark", "steel"]
     },
     poison: {
-        title: "Poison Type",
+        title: "poison",
         weaknesses: ["ground", "psychic"],
         strengths: ["grass", "fairy"]
     },
     ground: {
-        title: "Ground Type",
+        title: "ground",
         weaknesses: ["water", "grass", "ice"],
         strengths: ["fire", "electric", "poison", "rock", "steel"]
     },
     flying: {
-        title: "Flying Type",
+        title: "flying",
         weaknesses: ["electric", "ice", "rock"],
         strengths: ["grass", "fighting", "bug"]
     },
     psychic: {
-        title: "Psychic Type",
+        title: "psychic",
         weaknesses: ["bug", "ghost", "dark"],
         strengths: ["fighting", "poison"]
     },
     bug: {
-        title: "Bug Type",
+        title: "bug",
         weaknesses: ["fire", "flying", "rock"],
         strengths: ["grass", "psychic", "dark"]
     },
     rock: {
-        title: "Rock Type",
+        title: "rock",
         weaknesses: ["water", "grass", "fighting", "ground", "steel"],
         strengths: ["fire", "ice", "flying", "bug"]
     },
     ghost: {
-        title: "Ghost Type",
+        title: "ghost",
         weaknesses: ["ghost", "dark"],
         strengths: ["psychic", "ghost"]
     },
     dragon: {
-        title: "Dragon Type",
+        title: "dragon",
         weaknesses: ["ice", "dragon", "fairy"],
         strengths: ["dragon"]
     },
     dark: {
-        title: "Dark Type",
+        title: "dark",
         weaknesses: ["fighting", "bug", "fairy"],
         strengths: ["psychic", "ghost"]
     },
     steel: {
-        title: "Steel Type",
+        title: "steel",
         weaknesses: ["fire", "fighting", "ground"],
         strengths: ["ice", "rock", "fairy"]
     },
     fairy: {
-        title: "Fairy Type",
+        title: "fairy",
         weaknesses: ["poison", "steel"],
         strengths: ["fighting", "dragon", "dark"]
     }
@@ -490,13 +489,14 @@ function showMatchupPopup(type) {
     const popup = document.getElementById("matchupPopup");
     const typeData = matchups[type];
     
-    document.getElementById("typeTitle").textContent = typeData.title;
+    const typeTitleElement = document.getElementById("typeTitle");
+    typeTitleElement.innerHTML = `<img src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/${typeData.title}.png" alt="${typeData.title}" width="60px">`;
     
     const weaknessesHTML = typeData.weaknesses.map(t => `<img src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/${t}.png" width="60px">`).join(" ");
-    document.getElementById("weaknesses").innerHTML = `<strong>Weaknesses:</strong> ${weaknessesHTML}`;
+    document.getElementById("weaknesses").innerHTML = `<strong>Valnurable to</strong> ${weaknessesHTML}`;
     
     const strengthsHTML = typeData.strengths.map(t => `<img src="https://raw.githubusercontent.com/arrowgtr/pokemontypes/main/types/${t}.png" width="60px">`).join(" ");
-    document.getElementById("strengths").innerHTML = `<strong>Strengths:</strong> ${strengthsHTML}`;
+    document.getElementById("strengths").innerHTML = `<strong>Strong Against</strong> ${strengthsHTML}`;
     
     popup.style.display = "block";
     document.addEventListener("keydown", closeOnEsc);
